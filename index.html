@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="css/flex.css">
 <link rel="stylesheet" href="css/color.css">
 <link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/timeline.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -98,45 +99,34 @@
         </section>
 
         <!--Plan-->
-        <section id="planSection" class="container-fluid padding-row-lg bg-flat-black text-center text-white">
-            <h1 id="motivationSection-header" class="header text-center"> <i class="fa fa-heart text-red"></i> PLAN </h1>
-            <!-- The Timeline -->
-
-            <ul class="timeline align-center-row text-justify-center">
-
-                <!-- Item 1 -->
+        <section id="planSection" class="timeline container-fluid padding-row-lg bg-flat-black text-center text-white">
+            <h1 id="motivationSection-header" class="header text-center"> <i class="fa fa-heart text-red"></i> PLAN </h1>           
+            <ul>
                 <li>
-                    <div class="direction-r">
-                        <div class="flag-wrapper">
-                            <span class="flag text-black">Freelancer</span>
-                            <span class="time-wrapper"><span class="time">2013 - present</span></span>
-                        </div>
-                        <div class="desc">My current employment. Way better than the position before!</div>
+                    <div>
+                        <time>Phase 1: </time> Introduce our project, purpose. related work. methodology, plan
                     </div>
                 </li>
-            
-                <!-- Item 2 -->
                 <li>
-                    <div class="direction-l">
-                        <div class="flag-wrapper">
-                            <span class="flag text-black">Apple Inc.</span>
-                            <span class="time-wrapper"><span class="time">2011 - 2013</span></span>
-                        </div>
-                        <div class="desc">My first employer. All the stuff I've learned and projects I've been working on.</div>
+                    <div>
+                        <time>Phase 2: Data preparation </time> Data collection, data ingestion, data preparation
                     </div>
                 </li>
-
-                <!-- Item 3 -->
                 <li>
-                    <div class="direction-r">
-                        <div class="flag-wrapper">
-                            <span class="flag text-black">Harvard University</span>
-                            <span class="time-wrapper"><span class="time">2008 - 2011</span></span>
-                        </div>
-                        <div class="desc">A description of all the lectures and courses I have taken and my final degree?</div>
+                    <div>
+                        <time>Phase 3: Data Exploration</time> Gain an insight into the dataset. Determine the research path
                     </div>
                 </li>
-            
+                <li>
+                    <div>
+                        <time>Phase 4: Data visualization</time> Visualize the dataset with graph, table and their relationship
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>Phase 5: Data prediction</time> Build a ML model for content popularity prediction
+                    </div>
+                </li>
             </ul>
         </section>
 
@@ -284,6 +274,8 @@
             }, 800);
         });
     </script>
+
+    <script src="js/fun.js"></script>
 </body>
 
 </html>
